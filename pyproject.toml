@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "quantum-katas"
+version = "0.1.0"
+description = ""
+authors = ["Kohpai <whcwhc78@gmail.com>"]
+readme = "README.md"
+packages = [{include = "quantum_katas"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qsharp = "^0.28.263081"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
